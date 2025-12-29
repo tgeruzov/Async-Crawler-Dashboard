@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.python-version
+
+# --- Environments (Виртуальные окружения) ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Базы данных и Логи (Crawler State) ---
+# Исключаем БД, чтобы не пушить историю своих тестов
+*.db
+*.db-journal
+*.db-wal
+crawler.log
+crawler_state.db
+
+# --- Результаты парсинга (Data) ---
+# Исключаем папку с собранными данными (JSONL, CSV)
+data/
+output.jsonl
+compact.csv
+compact.tsv
+dedup_report.txt
+
+# --- Конфиденциальные данные ---
+.env
+auth.json
+
+# --- IDE (Настройки редакторов) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS (Системные файлы) ---
+.DS_Store
+Thumbs.db

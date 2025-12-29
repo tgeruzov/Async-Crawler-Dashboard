@@ -1,0 +1,9 @@
+user_agent: "MyBot/1.0 (Business Research; +http://mysite.com)"
+concurrency: 10
+timeout: 30
+delay: 1.0
+max_pages: 500
+restrict_domain: true
+use_playwright: false
+db_name: "my_crawl_project.db"
+output_dir: "results_2024"

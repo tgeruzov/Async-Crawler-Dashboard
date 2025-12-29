@@ -1,0 +1,13 @@
+aiohttp>=3.8.0
+aiosqlite>=0.18.0
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+playwright>=1.30.0
+trafilatura>=1.4.0
+tqdm>=4.64.0
+pyyaml>=6.0
+tenacity>=8.2.0
+yarl>=1.8.0
+pandas>=2.0.0
+streamlit>=1.20.0
+plotly>=5.13.0
